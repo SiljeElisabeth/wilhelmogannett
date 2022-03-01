@@ -4,7 +4,8 @@ main{
     font-family: Century Gothic, sans-serif;
 }
 h1,
-h2{
+h2,
+h3{
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 1.5em;
@@ -19,7 +20,6 @@ h2{
 p{
     font-family:Yu Gothic, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    opacity: 85%;
 }
 
 .smallscreen-nav,
@@ -30,21 +30,91 @@ p{
     width:200px;
     height:200px;
 }
-footer{
+.contactfooter{
     background-color: #F2F2F2;
-    margin-top:400px;
-    opacity: 60%;
+    color:black;
+    margin-top:150px;
+    opacity: 75%;
+    font-size: .6em;
 }
 .contactfooter p{
     margin:0px;
 }
+.homepage{
+    margin-top:300px;
+}
 
-
+/* Praktisk info */
+.praktiskinfo h2{
+    color:black;
+    font-size: 1.2em;
+    margin-top:20px;
+    color:#AE9100;
+}
+.praktiskinfo h3{
+    margin-top:10px;
+    text-align: center;
+    font-size:.9em;
+}
+.praktiskinfo p{
+    font-size: .8em;
+    margin:0px;
+    color:black;
+}
+.p-priser p{
+    margin:0px;
+    font-size: .8em;
+}
+.praktiskinfo a{
+    color:#AE9100;
+    text-decoration: none;
+    font-size: .8em;
+   display:flex;
+   justify-content: center;
+}
+.praktiskinfo a:hover{
+    text-decoration: underline;
+}
+.bukett a{
+    color:black;
+    opacity: 60%;
+}
+/* Plan for dagen*/
+.planen p{
+    text-align: left;
+    margin-top:6px;
+}
+.planen {
+    padding:10px;
+}
+/*Kirkeprogram*/
+/*Bordplan*/
+/*gaveønsker*/
+.gaveønsker h2{
+    color:black;
+}
+.gave-list a{
+    display:block;
+}
+.gave-list li{
+    list-style: circle;
+    font-size: 1em;
+    padding:0px;
+    margin-top:2px;
+}
+.allergener p{
+    font-size: .7em;
+}
 
 @media (max-width:550px){
 main{
     width:320px;
     }
+.w-and-a-img img {
+    width:310px;
+    height:230px;
+    object-fit: cover;
+}
 .logo img{
     margin:0px 60px 0px 60px;
 }
@@ -52,6 +122,30 @@ main{
     width:150px;
     height:150px;
     margin:0px 80px 0px 80px;
+}
+.gaveønsker img{
+    height:300px;
+}
+.praktiskinfo img{
+    width:310px;
+    height:150px;
+    margin-right:10px;
+    margin-top:15px;
+    object-fit:cover;
+}
+.bukett img{
+    height:300px;
+}
+.brynkirke img{
+    height:400px;
+}
+.imglink a{
+    background-color:rgb(206, 206, 206);
+    position:relative;
+    bottom:4px;
+    width:310px;
+    color:rgb(63, 63, 63);
+    font-size: .7em;
 }
 ul{
     list-style:none;
