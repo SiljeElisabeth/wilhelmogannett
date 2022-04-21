@@ -3,75 +3,121 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script
       src="https://kit.fontawesome.com/74588108d0.js"
       crossorigin="anonymous"
     ></script>
-    <link href="styles/styles.css" rel="stylesheet" />
-    <title>Wilhelm og Annett | Kirkeprogram</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="styles/styles-bootstrap.css" rel="stylesheet" />
+    <link href="styles/variables.css" rel="stylesheet" />
+
+    <title>Wilhelm og Annett</title>
   </head>
+
   <body>
     <header>
-      <div class="smallscreen-container">
-        <label for="hamburgermenu"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="hamburgermenu" />
-        <nav class="smallscreen-nav">
-          <ul>
-            <a href="praktiskinfo.html"><li>praktisk info</li></a>
-            <a href="planfordagen.html"><li>plan for dagen</li></a>
-            <a href="kirkeprogram.html"><li>kirkeprogram</li></a>
-            <a href="bordplan.html"><li>bordplan</li></a>
-            <a href="meny.html"><li>meny</li></a>
-            <a href="gaveønsker.html"><li>gaveønsker</li></a>
-          </ul>
-        </nav>
-      </div>
-      <div class="logo-bigscreen">
+      <div class="logo-big">
         <a href="index.html">
-          <img
-            alt="Wilhelm og Annetts logo"
-            src="img/b4acfea03345455cbb4970e8ad9c59c2 (1).png"
+          <img src="/img/logo.png" alt="Wilhelm og Annett logo"
         /></a>
       </div>
-      <nav class="bigscreen-nav">
-        <a href="praktiskinfo.html">praktisk info</a>
-        <a href="planfordagen.html">plan for dagen</a>
-        <a href="kirkeprogram.html">kirkeprogram</a>
-        <a href="bordplan.html">bordplan</a>
-        <a href="meny.html">meny</a>
-        <a href="gaveønsker.html">gaveønsker</a>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo"
+              src="/img/logo.png"
+              alt="Wilhelm og Annett logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-center" id="navbarNav">
+            <div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="praktiskinfo.html"
+                    >Praktisk info</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="planfordagen.html"
+                    >Plan for dagen</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="kirkeprogram.html"
+                    >Kirkeprogram</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bordplan.html">Bordplan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="meny.html">Meny</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gaveønsker.html">Gaveønsker</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
-      <div class="logo-smallscreen">
-        <a href="index.html">
+      <h1 class="center">KIRKEPROGRAM</h1>
+      <div class="container">
+        <h2>Info kommer snart</h2>
+        <div class="card mb-3">
           <img
-            alt="Wilhelm og Annetts logo"
-            src="img/b4acfea03345455cbb4970e8ad9c59c2 (1).png"
-        /></a>
-      </div>
-      <h1>kirkeprogram</h1>
-
-      <div class="praktiskinfo">
-        <h2>info kommer snart</h2>
-        <div class="brynkirke">
-          <img alt="bryn kirke" src="img/Bryn_kirke_Rykkinn_07.JPG" />
+            src="img/Bryn_kirke.jpg"
+            class="card-img-top img_kirke"
+            alt="Bryn Kirke"
+          />
+          <div class="card-body">
+            <p class="card-text center link">
+              <a href="https://no.wikipedia.org/wiki/Bryn_kirke"
+                >Bryn Kirke (bildet fra wikipedia)</a
+              >
+            </p>
+          </div>
         </div>
-        <p class="imglink">
-          <a
-            href="https://commons.m.wikimedia.org/wiki/File:Bryn_kirke_Rykkinn_07.JPG"
-            >Bryn Kirke (Bildet fra Wikipedia)</a
-          >
-        </p>
       </div>
     </main>
     <footer>
       <div class="contactfooter">
-        <p>Har du flere spørsmål?</p>
         <p>Kontakt Wilhelm og Annett på tlf xxxxxxxx</p>
         <p>Nettsiden er laget av Silje Thunæs</p>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
