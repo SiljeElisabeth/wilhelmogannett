@@ -30,16 +30,6 @@
     margin-top:50px;
     margin-bottom:20px;
 }
-.contactfooter{
-    background-color: #F2F2F2;
-    color:black;
-    margin-top:150px;
-    opacity: 75%;
-    font-size: .6em;
-}
-.contactfooter p{
-    margin:0px;
-}
 .homepage{
     margin-top:300px;
 }
@@ -106,15 +96,15 @@
 /*Kirkeprogram*/
 /*Bordplan*/
 /*gaveønsker*/
+.bordplassering{
+    padding-top:100px;
+}
 .gaveønsker p{
     text-align: center;
     padding-top:30px;
 }
 .gaveønsker h2{
     color:black;
-}
-.gave-list a{
-    display:block;
 }
 .gave-list li{
     list-style: circle;
