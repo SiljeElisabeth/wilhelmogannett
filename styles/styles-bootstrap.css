@@ -74,7 +74,7 @@ a:hover{
 }
 .planfordagen_img_wrapper{
     display: grid;
-    grid-template-columns:220px 220px 220px;
+    grid-template-columns:230px 240px 240px;
  
 }
 .planfordagen_img{
