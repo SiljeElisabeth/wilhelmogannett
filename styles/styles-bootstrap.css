@@ -12,7 +12,7 @@ main{
     max-width:970px;
     margin: 0 auto;
     font-family: "Century Gothic", sans-serif;
-    padding-bottom:100px;
+    margin-bottom:100px;
 }
 .wrapper{
     flex: 1 0 auto;
@@ -68,6 +68,36 @@ a:hover{
     height:auto;
     object-fit: cover;
 }
+.main-woga-img{
+   max-width:70%;
+   left:108px;
+}
+.planfordagen_img_wrapper{
+    display: grid;
+    grid-template-columns:220px 220px 220px;
+ 
+}
+.planfordagen_img{
+    max-width:100%;
+    height:134px;
+}
+@media (max-width: 768px) {
+    .planfordagen_img_wrapper{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .planfordagen_img{
+        max-width:100%;
+        height:100%;
+        padding-bottom:10px;
+    }
+ }
+@media (max-width: 992px) {
+    .main-woga-img{
+        max-width:100%;
+        left:0px;
+    }
+ }
 
 .bg-light{
     background-color:white !important;
@@ -134,11 +164,14 @@ a:hover{
     padding:20px;
     margin-top:59px;
 }
-
+.card-img-overlay{
+    top:87px;
+}
 .card_blomster,
 .card_img_blomster{
-    height: 300px;
-    object-fit:cover;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
     border:none;
     border-radius: 10px;
 }
