@@ -98,6 +98,9 @@ a:hover{
     .card-img-overlay{
     position:static;
 }
+    .card_text_blomster{
+        margin-top:0 !important;
+}
  }
 @media (max-width: 992px) {
     .main-woga-img{
