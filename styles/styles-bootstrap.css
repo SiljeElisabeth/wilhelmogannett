@@ -48,9 +48,11 @@ a:hover{
 .card{
     margin-top:30px;
 }
-.link a{
+.link a,
+.link{
     color:white;
 }
+
 .link a:hover{
     text-decoration: underline;
 }
@@ -167,24 +169,8 @@ a:hover{
 }
 /* Gaveønsker */
 
-.card_text_blomster{
-    background-color: white;
-    min-height: 100px;
-    border-radius: 10px;
-    text-align: center;
-    padding:20px;
-    margin-top:59px;
-}
-.card-img-overlay{
-    top:87px;
-}
-.card_blomster,
-.card_img_blomster{
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-    border:none;
-    border-radius: 10px;
+.gave-text{
+    margin:30px;
 }
 
  /* Kirkeprogram */
@@ -203,19 +189,16 @@ a:hover{
 }
 footer{
     flex-shrink: 0;
-    background-color: rgb(241, 241, 241); 
+    background-color: #d1bf98;
     text-align: center;
     font-size: .8em;
-    color:var(--color-cardtext);
+    color:white;
     padding: 15px 0px; 
 }
 footer p{
     margin:0;
 }
-footer a{
-    color: var(--color-primary);
-    opacity: 50%;
-}
+
  /* media queries */
 @media (min-width: 768px) {
     .logo{
