@@ -38,6 +38,7 @@ img{
 }
 
 /* Praktisk info */
+
 .praktiskinfo h2{
     text-align: left;
     color:black;
@@ -97,6 +98,9 @@ img{
     padding:10px;
 }
 /*Kirkeprogram*/
+.kirkeprogram_p{
+    margin-left:20px !important;
+}
 /*Bordplan*/
 /*gaveønsker*/
 .bordplassering{

@@ -63,6 +63,9 @@ a:hover{
 .les_mer:hover{
     color:var(--color-primary);
 }
+.extra_info{
+    margin-top:30px;
+}
 .card-body{
     background-color: var( --color-cardtext);
 }
