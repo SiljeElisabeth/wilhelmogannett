@@ -21,6 +21,9 @@ nav{
     max-width: 1200px;
     margin: 0 auto;
 }
+.navbar-toggler:focus{
+    box-shadow: none;
+}
 p{
     font-family:Yu Gothic, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -223,9 +226,20 @@ footer p{
     width: 120px;
     height:120px;
 }
+.navbar-nav{
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+    height:100vh;
+}
 .navbar-collapse{
+    position:absolute;
+    right:0;
+    top:100px;
     display:flex;
     justify-content: right;
-    margin-right:30px;
+    margin-right:10px;
+    z-index: 1;
+    
 }
 }
