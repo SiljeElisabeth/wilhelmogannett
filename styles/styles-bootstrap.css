@@ -89,6 +89,13 @@ a:hover{
 .bg-dark{
         --bs-bg-opacity:0;
     }
+
+.kp-backup{
+    max-width:550px;
+    }
+.kp-backup img{
+    max-width:550px;
+}
 @media (max-width: 768px) {
     
     .planfordagen_img_wrapper{
