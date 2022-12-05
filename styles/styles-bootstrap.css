@@ -230,6 +230,9 @@ footer p{
     width: 120px;
     height:120px;
 }
+.stor{
+    display: none;
+}
 .navbar-nav{
     background-color:white;
     padding:20px;
@@ -246,4 +249,9 @@ footer p{
     z-index: 1;
     
 }
+}
+
+/* bilder*/
+.bilder-container a{
+    text-decoration: underline;
 }
